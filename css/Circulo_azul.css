@@ -1,0 +1,406 @@
+
+/* Background colors */
+
+  body{
+
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)'%3e%3cpath d='M112.5 287.5L137.5 287.5L162.5 287.5L187.5 287.5M87.5 287.5L112.5 312.5L137.5 312.5L162.5 312.5M212.5 262.5L237.5 287.5L262.5 287.5L287.5 287.5M-12.5 287.5L12.5 287.5L37.5 287.5L62.5 287.5L87.5 287.5L112.5 287.5L137.5 262.5L162.5 262.5L187.5 262.5L212.5 262.5L237.5 262.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M231.25 262.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM181.25 287.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM156.25 312.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM281.25 287.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3cpath d='M437.5 237.5L462.5 212.5L487.5 212.5M387.5 237.5L412.5 262.5L437.5 262.5L462.5 262.5L487.5 262.5M312.5 237.5L337.5 262.5L362.5 262.5L387.5 262.5L412.5 287.5L437.5 287.5L462.5 287.5L487.5 287.5M287.5 237.5L312.5 212.5L337.5 212.5L362.5 212.5M62.5 262.5L87.5 237.5L112.5 237.5M212.5 237.5L237.5 212.5M-12.5 262.5L12.5 262.5L37.5 262.5L62.5 262.5L87.5 262.5L112.5 262.5L137.5 237.5L162.5 237.5L187.5 237.5L212.5 237.5L237.5 237.5L262.5 237.5L287.5 237.5L312.5 237.5L337.5 237.5L362.5 237.5L387.5 237.5L412.5 237.5L437.5 237.5L462.5 237.5L487.5 237.5L512.5 237.5L537.5 237.5L562.5 237.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M556.25 237.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM481.25 212.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM481.25 262.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM481.25 287.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM356.25 212.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM106.25 237.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM231.25 212.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3cpath d='M-12.5 312.5L12.5 312.5L37.5 312.5' stroke='%233a7cc3' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M31.25 312.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%233a7cc3'%3e%3c/path%3e%3cpath d='M462.5 137.5L487.5 112.5L512.5 112.5L537.5 112.5L562.5 112.5M187.5 187.5L212.5 212.5M87.5 212.5L112.5 187.5L137.5 187.5M487.5 137.5L512.5 162.5L537.5 162.5L562.5 162.5M437.5 137.5L462.5 162.5M362.5 187.5L387.5 187.5L412.5 187.5L437.5 187.5M-12.5 237.5L12.5 237.5L37.5 237.5L62.5 212.5L87.5 212.5L112.5 212.5L137.5 212.5L162.5 187.5L187.5 187.5L212.5 187.5L237.5 187.5L262.5 187.5L287.5 187.5L312.5 187.5L337.5 187.5L362.5 187.5L387.5 162.5L412.5 162.5L437.5 137.5L462.5 137.5L487.5 137.5L512.5 137.5L537.5 137.5L562.5 137.5L587.5 112.5L612.5 112.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M606.25 112.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM556.25 112.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM206.25 212.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM131.25 187.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM556.25 162.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM456.25 162.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM431.25 187.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3cpath d='M37.5 337.5L62.5 362.5L87.5 362.5M-12.5 337.5L12.5 337.5L37.5 337.5L62.5 337.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M56.25 337.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM81.25 362.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3cpath d='M12.5 212.5L37.5 187.5M-12.5 212.5L12.5 212.5L37.5 212.5L62.5 187.5' stroke='%233a7cc3' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M56.25 187.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM31.25 187.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%233a7cc3'%3e%3c/path%3e%3cpath d='M12.5 362.5L37.5 362.5M-12.5 362.5L12.5 362.5L37.5 387.5L62.5 387.5' stroke='%233a7cc3' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M56.25 387.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM31.25 362.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%233a7cc3'%3e%3c/path%3e%3cpath d='M37.5 162.5L62.5 137.5L87.5 137.5L112.5 137.5L137.5 137.5M-12.5 187.5L12.5 162.5L37.5 162.5L62.5 162.5L87.5 162.5L112.5 162.5L137.5 162.5L162.5 162.5L187.5 162.5L212.5 162.5L237.5 162.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M231.25 162.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM131.25 137.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3cpath d='M587.5 462.5L612.5 437.5L637.5 437.5L662.5 437.5M112.5 412.5L137.5 387.5M87.5 412.5L112.5 437.5L137.5 437.5L162.5 437.5M187.5 412.5L212.5 412.5L237.5 412.5L262.5 412.5L287.5 412.5L312.5 412.5L337.5 412.5M262.5 437.5L287.5 462.5L312.5 462.5M37.5 412.5L62.5 437.5M-12.5 387.5L12.5 387.5L37.5 412.5L62.5 412.5L87.5 412.5L112.5 412.5L137.5 412.5L162.5 412.5L187.5 412.5L212.5 437.5L237.5 437.5L262.5 437.5L287.5 437.5L312.5 437.5L337.5 437.5L362.5 437.5L387.5 437.5L412.5 437.5L437.5 437.5L462.5 437.5L487.5 437.5L512.5 437.5L537.5 462.5L562.5 462.5L587.5 462.5L612.5 462.5' stroke='%233a7cc3' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M606.25 462.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM656.25 437.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM131.25 387.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM156.25 437.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM331.25 412.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM306.25 462.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM56.25 437.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%233a7cc3'%3e%3c/path%3e%3cpath d='M487.5 87.5L512.5 62.5L537.5 62.5M162.5 112.5L187.5 112.5L212.5 112.5M337.5 137.5L362.5 112.5M62.5 112.5L87.5 87.5L112.5 87.5L137.5 87.5L162.5 87.5M237.5 137.5L262.5 112.5L287.5 112.5L312.5 112.5M-12.5 162.5L12.5 137.5L37.5 112.5L62.5 112.5L87.5 112.5L112.5 112.5L137.5 112.5L162.5 112.5L187.5 137.5L212.5 137.5L237.5 137.5L262.5 137.5L287.5 137.5L312.5 137.5L337.5 137.5L362.5 137.5L387.5 137.5L412.5 137.5L437.5 112.5L462.5 87.5L487.5 87.5L512.5 87.5' stroke='%23dd1133' stroke-width='4.17'%3e%3c/path%3e%3cpath d='M506.25 87.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM531.25 62.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM206.25 112.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM356.25 112.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM156.25 87.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0zM306.25 112.5 a6.25 6.25 0 1 0 12.5 0 a6.25 6.25 0 1 0 -12.5 0z' fill='%23dd1133'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3cpath d='M234.37 262.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM184.37 287.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM159.37 312.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM284.37 287.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M559.37 237.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM484.37 212.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM484.37 262.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM484.37 287.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM359.37 212.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM109.37 237.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM234.37 212.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M34.37 312.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M609.37 112.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM559.37 112.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM209.37 212.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM134.37 187.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM559.37 162.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM459.37 162.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM434.37 187.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M59.37 337.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM84.37 362.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M59.37 187.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM34.37 187.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M59.37 387.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM34.37 362.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M234.37 162.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM134.37 137.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M609.37 462.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM659.37 437.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM134.37 387.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM159.37 437.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM334.37 412.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM309.37 462.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM59.37 437.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3cpath d='M509.37 87.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM534.37 62.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM209.37 112.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM359.37 112.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM159.37 87.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0zM309.37 112.5 a3.13 3.13 0 1 0 6.26 0 a3.13 3.13 0 1 0 -6.26 0z' fill='black'%3e%3c/path%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");  /* Fijar la imagen de fondo este vertical y
+    horizontalmente y centrado */
+    background-position: center center;
+
+    /* Esta imagen no debe de repetirse */
+    background-repeat: no-repeat;
+  
+    /* COn esta regla fijamos la imagen en la pantalla. */
+    background-attachment: fixed;
+  
+    /* La imagen ocupa el 100% y se reescala */
+    background-size: cover;
+  
+    /* Damos un color de fondo mientras la imagen está cargando  */
+    background-color: #464646;
+}
+
+
+h2{
+color: #ffffff ;
+text-align: center;
+font-family: "Helvetica Neue", sans-serif;
+
+}
+  a {
+    text-decoration: none;
+  }
+
+   
+
+  .TitleMe {
+    position:relative;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Helvetica Neue", sans-serif; /* Fuente adecuada para títulos */
+    font-weight: bold; /* Negrita para resaltar el título */
+    color: rgb(253, 250, 250);
+ 
+      } 
+
+      .TitleMe:hover{
+        color: #08FDD8;
+        transition: 1s;
+      }
+
+
+
+      .ExpProf {
+        font-size: 45px;
+        font-family: "Helvetica Neue", sans-serif; /* Fuente adecuada para títulos */
+        font-weight: bold; /* Negrita para resaltar el título */
+        color: rgb(253, 250, 250);
+        text-align: center;
+     
+          } 
+    
+          .ExpProf:hover{
+            color: #08FDD8;
+            transition: 1s;
+          }
+
+   .Cards:hover h3{
+        color: #00ffb7;
+        transition: 1s;
+
+   }
+  
+   
+  /* Barra de navegacion */
+
+
+
+ .navbar {
+    position: fixed;  /* Posiciona el objetivo y lo deja inamobible*/
+    z-index: 100;  /* Permite colocar esta barra por encima de todo, para evitar conflictos en el scroll*/
+    background-color: #595b5ce7; /* Le da color a la barra*/
+    top: 20px;
+    margin:auto;
+     /* Cordenada de posicionamiento*/
+    top: 0; 
+    left: 0;
+  
+    /*Tamaño del contenedor o rectangulo */
+    width: 100%;
+    height: 90px;
+
+  }
+
+  .navbar img {
+
+    position: absolute; /* establecer la imagen como posición absoluta */
+    top: 10px; /* mover la imagen 20 píxeles por encima del margen superior */
+    right:  10%; /* centrar la imagen horizontalmente */
+    transform: translateX(-50%); /* ajustar la posición horizontal */
+    max-width: 100%; /* ajustar el ancho máximo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* sombra ligera */
+    display: flex;
+    overflow: hidden;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+
+
+  }
+
+     
+  .lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+  .lista li {
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 35px;
+  
+  }
+  
+  .lista li a {
+    color: #f3f3f5;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fuente adecuada para títulos */
+   
+ 
+  }
+  
+  .lista li a:hover {
+    color: #08FDD8; /*Le da color al efecto hover */
+    transition: color 0.3s, background-color 0.3s; 
+
+  }
+   
+
+
+  
+  .contenedor-principal {
+    position: relative;
+    display: flex;  /* hace que los contenedore se organicen de izquierda  a derecha */
+    max-height: 1000px;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 250px;
+    border-radius: 20px; /* bordes circulares */
+    box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
+    background: -webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:    -moz-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:     -ms-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:      -o-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:         linear-gradient(90deg, #132d46 10%, #132d46 90%);
+   
+  }
+
+  .contenedor-principal:hover { 
+    box-shadow: 0 0 10px #6699CC, 0 0 20px #6699CC, 0 0 30px #6699CC;
+    transition: box-shadow 0.5s ease-out;
+  }
+  .contenedor_circulo{
+    position: relative;
+    flex-grow: 1;
+    width: 400px;
+    max-height: 400px;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .circle-image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 5px solid #ffffff; /* Azul metálico */
+    box-shadow: 0 0 5px #ffffff; /* Sombra del borde */
+   
+   
+  }
+  
+  .circle-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .contenedor_texto {
+    position: relative;
+    flex-grow: 2;
+    width: 900px;
+    height: 450px;
+    padding: 40px;
+
+  }
+
+  
+  /* Estilos para el efecto de iluminación */
+  .circle-image:hover {
+    box-shadow: 0 0 10px #6699CC, 0 0 20px #6699CC, 0 0 30px #6699CC;
+    transition: box-shadow 0.5s ease-out;
+  }
+
+ 
+      
+
+  #text_sobremi {
+    position: relative;
+    color:#e6f1ff;
+    font-size:22px;
+    line-height:  2em;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+  }
+
+
+  .contenedor_skills{
+    flex-grow: 3;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 20px;   
+    right: 50px;
+    margin-left: 50px;
+    height: auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(150px,1fr));
+    grid-auto-rows: max-content;
+    white-space: nowrap;
+    
+  }
+
+  .grid-item{
+      color: #ffffff;
+
+  }
+   
+
+  
+  /* Estilos de cards */
+ 
+
+  .Contenedor
+    {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /*box-shadow: 0 2px 4px rgba(255, 255, 255, 0.8); /* sombra ligera */
+    
+      
+    }
+
+    .Contenedor h2{
+        position: absolute;
+        top: -90px;
+        left: 40%;
+        font-size: 5px;
+        color: #ffffff;
+        font-family: "Helvetica Neue", sans-serif; /* Fuente adecuada para títulos */
+        font-weight: bold; /* Negrita para resaltar el título */
+    }
+
+  .Cards
+  {
+    position: relative; /* establecer el contenedor como el padre */
+    border-radius: 20px; /* bordes circulares */
+    box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
+    color: #ffffff;
+    border-radius: 10px; /* bordes redondeados */
+    padding: 60px; /* espacio interno de izquierda y derecha */
+    margin: 60px; /* espacio entre contenedores */
+    width: 350px; /* ancho del contenedor */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-height: 130px; /* tamaño maximo inicial solo de altura*/
+    transition: .4s ease max-height;  /* reacciona y transforma al tamaño que se define en max-height desde un inicio*/
+    overflow: hidden;   /* justifica todo dentro del div para que no se desborden los elementos*/
+    background: -webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:    -moz-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:     -ms-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:      -o-linear-gradient(90deg, #132d46 10%, #132d46 90%);
+    background:         linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
+ }
+
+  .Cards:hover /* al pasar el puntero cambia el color del fondo de los contenedores de experiencia profesiona*/
+
+ {
+    background:-webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
+    max-height: 1000px; /* reacciona y transforma al tamaño maximo cuando pasas el puntero*/
+    transition: 1s ease max-height; /* genera el efecto de transicion de 1 segundo a su tamaño maximo*/
+
+ }
+
+
+  .Cards img {
+    position: relative; /* establecer la imagen como posición absoluta */
+    top: -30px; /* mover la imagen 20 píxeles por encima del margen superior */
+    left: 48%; /* centrar la imagen horizontalmente */
+    transform: translateX(-50%); /* ajustar la posición horizontal */
+    max-width: 100%; /* ajustar el ancho máximo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* sombra ligera */
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+
+            }
+
+  
+
+  .Cards ul {
+    margin-bottom: 5px; /* espacio entre cada elemento de la lista */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    
+    
+    
+}
+  
+
+  .Cards li {
+    top: ;
+    margin-bottom: 10px; /* espacio entre cada elemento de la lista */
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+        }
+
+        .Cards li::before {
+         content: "👍 ";
+                }
+  
+
+  .Cards p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+    /*font-weight: bold;*/
+}
+
+
+
+.Iconos_footer h2
+{
+
+    position: absolute;
+   
+    bottom: 90px;
+    right: 210px;
+    font-size: 50px;
+  
+    
+}
+
+
+    .Iconos_footer img
+    {
+        position: absolute;
+        bottom: -150px;
+        height: 50px;
+        width: 50px;
+        right: 140px;
+        transition: 1s ease;
+       
+        
+    }
+   
+    .Iconos_footer img:hover
+    {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+
+    }
+ 
+   /* .linea {
+      border-top: 1px solid rgb(255, 255, 255);
+      height: 2px;
+      width: 100%;
+   
+     
+    } este codigo hae una linea*/ 
+
+    a {
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s;
+      color: #ffffff;
+  }
+  a:hover, a:focus {
+      background-size: 100% 2px;
+  }
