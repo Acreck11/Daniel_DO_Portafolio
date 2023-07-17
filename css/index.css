@@ -65,12 +65,12 @@ font-family: "Helvetica Neue", sans-serif;
             transition: 1s;
           }
 
-   .Cards:hover h3{
+  /* .Cards:hover h3{
         color: #00ffb7;
         transition: 1s;
 
-   }
-  
+   }*/
+   
    
   /* Barra de navegacion */
 
@@ -256,11 +256,19 @@ font-family: "Helvetica Neue", sans-serif;
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+         gap: 50px;
+      
         /*box-shadow: 0 2px 4px rgba(255, 255, 255, 0.8); /* sombra ligera */
-    
+        /* margin: 0 10% 0 10%; /* Arriba | Derecha | Abajo | Izquierda */
+
       
     }
+
+
+  
 
     .Contenedor h2{
         position: absolute;
@@ -272,26 +280,33 @@ font-family: "Helvetica Neue", sans-serif;
         font-weight: bold; /* Negrita para resaltar el título */
     }
 
-  .Cards
-  {
-    position: relative; /* establecer el contenedor como el padre */
-    border-radius: 20px; /* bordes circulares */
-    box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
-    color: #ffffff;
-    border-radius: 10px; /* bordes redondeados */
-    padding: 60px; /* espacio interno de izquierda y derecha */
-    margin: 60px; /* espacio entre contenedores */
-    width: 350px; /* ancho del contenedor */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-height: 130px; /* tamaño maximo inicial solo de altura*/
-    transition: .4s ease max-height;  /* reacciona y transforma al tamaño que se define en max-height desde un inicio*/
-    overflow: hidden;   /* justifica todo dentro del div para que no se desborden los elementos*/
-    background: -webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:    -moz-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:     -ms-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:      -o-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:         linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
- }
+    .Cards
+    {
+      position: relative; /* establecer el contenedor como el padre */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 20px; /* bordes circulares */
+      box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
+      color: #ffffff;
+      width: 500px;
+      padding: 40px;  /* espacio interno de izquierda y derecha */
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      /*max-height: 200px; /* tamaño maximo inicial solo de altura*/
+      /*transition: .4s ease max-height;  /* reacciona y transforma al tamaño que se define en max-height desde un inicio*/
+      /*overflow: hidden;   /* justifica todo dentro del div para que no se desborden los elementos*/
+     
+      background:linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
+   }
+   
+   @media (max-width: 768px) {
+    .Cards {
+      width: 250px ; /* Ajusta el ancho según tus necesidades */
+      padding: 20px; /* Ajusta el espacio interno según tus necesidades */
+    }
+  }
+
 
   .Cards:hover /* al pasar el puntero cambia el color del fondo de los contenedores de experiencia profesiona*/
 
@@ -305,7 +320,7 @@ font-family: "Helvetica Neue", sans-serif;
 
   .Cards img {
     position: relative; /* establecer la imagen como posición absoluta */
-    top: -30px; /* mover la imagen 20 píxeles por encima del margen superior */
+    top: 30px; /* mover la imagen 20 píxeles por encima del margen superior */
     left: 48%; /* centrar la imagen horizontalmente */
     transform: translateX(-50%); /* ajustar la posición horizontal */
     max-width: 100%; /* ajustar el ancho máximo */
@@ -330,7 +345,6 @@ font-family: "Helvetica Neue", sans-serif;
   
 
   .Cards li {
-    top: ;
     margin-bottom: 10px; /* espacio entre cada elemento de la lista */
     list-style: none;
     font-family: 'Courier New', Courier, monospace;
@@ -406,26 +420,11 @@ font-family: "Helvetica Neue", sans-serif;
   }
 
 
-  .Cards
-  {
-    position: relative; /* establecer el contenedor como el padre */
-    border-radius: 20px; /* bordes circulares */
-    box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
-    color: #ffffff;
-    border-radius: 10px; /* bordes redondeados */
-    padding: 60px; /* espacio interno de izquierda y derecha */
-    margin: 60px; /* espacio entre contenedores */
-    width: 350px; /* ancho del contenedor */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    max-height: 130px; /* tamaño maximo inicial solo de altura*/
-    transition: .4s ease max-height;  /* reacciona y transforma al tamaño que se define en max-height desde un inicio*/
-    overflow: hidden;   /* justifica todo dentro del div para que no se desborden los elementos*/
-    background: -webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:    -moz-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:     -ms-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:      -o-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-    background:         linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
- }
+ 
+
+ 
+
+
 
   .Cards:hover /* al pasar el puntero cambia el color del fondo de los contenedores de experiencia profesiona*/
 
@@ -488,30 +487,20 @@ font-family: "Helvetica Neue", sans-serif;
 .Proyectos
 {
   position: relative; /* establecer el contenedor como el padre */
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
   border-radius: 20px; /* bordes circulares */
   box-shadow: 0 0 10px rgba(248, 247, 247, 0.3); /* sombra */
   color: #ffffff;
-  border-radius: 10px; /* bordes redondeados */
   padding: 60px; /* espacio interno de izquierda y derecha */
-  margin: 60px; /* espacio entre contenedores */
-  width: 350px; /* ancho del contenedor */
+  width: 500px; /* ancho del contenedor */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  max-height: 130px; /* tamaño maximo inicial solo de altura*/
-  overflow: hidden;   /* justifica todo dentro del div para que no se desborden los elementos*/
-  background: -webkit-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-  background:    -moz-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-  background:     -ms-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-  background:      -o-linear-gradient(90deg, #132d46 10%, #132d46 90%);
-  background:         linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
+   background:         linear-gradient(90deg, #132d46 10%, #132d46 90%); /*  setencia que cambiar el color*/
 }
 
-.Proyectos:hover { 
-  box-shadow: 0 0 10px #6699CC, 0 0 20px #6699CC, 0 0 30px #6699CC;
-  transition: box-shadow 0.5s ease-out;
-}
+
 
 .FooterText {
   color: #ffffff;
@@ -532,4 +521,17 @@ font-family: "Helvetica Neue", sans-serif;
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+button {
+  background-color: white;
+  border-radius: 20px;
+  width: 250px;
+  height: 60px;
+  font-size: large;
+  color: black;
+}
+
+.Contacto img{
+  border-radius: 100%;
 }
